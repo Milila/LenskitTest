@@ -76,7 +76,7 @@ public class HelloLenskit implements Runnable {
                 throw new RuntimeException("unknown option: " + arg);
             } else {
                 //inputFile = new File(arg);
-                inputFile = new File("/home/anais/Documents/LenskitTest/src/main/java/LenskitTest/ml100k/u.data");
+                inputFile = new File("/home/anais/IdeaProjects/LenskitTest/src/main/java/LenskitTest/ml100k/u.data");
                 System.out.println(inputFile);
                 nextArg += 1;
                 done = true;
